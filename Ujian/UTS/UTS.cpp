@@ -14,14 +14,12 @@ int main () {
     } else {
         k1 = 1;
     }
-
     if (nilai2 < 0 || nilai2 > 100) {
         k2 = 0;
     } else {
         k2 = 1;
     }
     kebenaran = k1 + k2 ; 
-
     rerata = ((nilai1+nilai2) / 2) ;
     
     if (kebenaran > 1 ) {
